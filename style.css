@@ -1,0 +1,65 @@
+
+.buffer {
+	height: 2rem;
+}
+
+
+/*hr{
+	border-color: #black;
+	border-width: 5px;
+	max-width: 80px;
+	solid #F05F44
+BOOTSTRAP DOESN'T SUPPORT <hr> TAG SO THE NEW CSS IS ADDED TO SUPPORT THE BOOTSTRAP ALIGNMENT
+}*/
+hr {
+    margin: 20px auto;
+    background-color: #ff9933;
+    border: 2px solid #ff9933;
+    max-width: 70px;
+    opacity: 1;  
+}
+
+
+.btnmain:hover{
+	background-color: #e67300;
+	border-color: #e67300;
+	border-width: 4px;
+}
+
+
+.btnmain{
+	background-color: #ff9933;
+	border-color: #ff9933;
+	font: black;
+}
+
+
+span{
+	color: black;
+}
+
+
+.mainfont{
+	color: white;
+}
+
+
+body,
+html{
+width: 100%;
+height: 100%;
+
+/*CSS by google fonts*/
+font-family: 'Roboto', sans-serif;
+
+
+/*This background code is copied from "perfect bg image" via css tricks*/
+ background: url(landing2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
